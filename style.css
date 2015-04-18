@@ -1,0 +1,187 @@
+/*=======================================================
+Form 1
+========================================================*/
+#form1-container {
+	width: 460px;
+	height: 390px;
+	background-color: #f7f7f7;
+	color: #7c7c7c;
+	margin: 20px auto;
+}
+.form1-h1 {
+	padding-top: 10px;
+	margin-bottom: 0;
+	font-size: 22px;
+}
+.form1-p {
+	margin-top:0;
+	font-size: 8px;
+}
+.form1-header {
+	font-family: arial, sans-serif;
+	font-weight: 800;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 15px;
+}
+.form1-label {
+	width: 410px;
+	display: inline-block;
+	margin: 10px 0 8px -18px;
+	padding: 0;
+	text-align: right;
+	font-size: 13px;
+	font-weight: 600;
+}
+.form1-input, .form1-textarea, .form1-select {
+	display: inline-block;
+	width: 290px;
+	font-family: "Century Gothic", sans-serif;
+	float: right;
+	margin-left: 6px;
+	border: 2px solid #dfdfdf;
+	padding: 2px 4px;
+	height: 20px;
+}
+.form1-textarea {
+	height: 80px;
+}
+.form1-select {
+	color: #a7a7a7;
+	font-weight: 600;
+	width: 302;
+	height: 30px;
+	margin-left: 5px;
+	padding-left: 0;
+}
+.form1-fieldset {
+	border: none;
+}
+.form1-btn {
+	height: 30px;
+	width: 80px;
+	background-color: #e27575;
+	margin-left: 108px;
+	color: white;
+	border-radius: 3px;
+	border: none;
+	box-shadow: 1px 1px 2px #888;
+}
+/*===========================================================
+Form 2
+=============================================================*/
+.form2-container {
+	height:480px;
+	width:590px;
+}
+.form2-header {
+	background: #9ec45f;
+	color:white;
+	font-family:Georgia,Times,"Times New Roman",serif;
+	padding:15px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	width:590px;
+}
+.form2-title {
+	margin:20px 0 0 20px;	
+}
+.form2-subtitle {
+	margin:0 0 15px 20px;
+	font-size: .8em;
+}
+.form2 {
+	margin-left:20px;
+	width:590px;
+	height:480px;
+}
+.form2-label {
+	color:#595959;
+	display:block;;
+	font-weight:bold;
+	margin-top:20px;
+}
+.form2-input {
+	width:440px;
+	font-family:inherit;
+	height:20px;
+	display:block;
+}
+.form2-textarea {
+	height:120px;
+	width:440px;
+	font-size:14px;
+	display:block;
+}
+.form2-select {
+	height:25px;
+	width:440px;
+	background:#F3F3F3;
+}
+#form2-button {
+	background:#9ec45f;
+	color:white;
+	border-radius:5px;
+	height:40px;
+	width:80px;
+	margin-top:20px;
+}
+/*===========================================================
+Form 3
+===========================================================*/
+#form3-container {
+	background:#b13939;
+	color:white;
+	height:450px;
+	width:600px;
+	font-family:Tahoma, Geneva, sans-serif
+}
+.form3-title{
+	text-align:center;
+	padding-top:20px;
+}
+.form3-outline {
+	margin-left:0;
+	margin-right:40px;
+	font-size:8px;
+	color:#FFFFF0;
+}
+ .form3-p {
+ 	margin-left:30px;
+ 	margin-right:40px;
+ 	font-size:8px;
+ 	color:#FFFFE0;
+ }
+ .form3-h4 {
+ 	margin-left:30px;
+ }
+.form3-input-left {
+	margin-left:30px;
+	box-shadow-bottom:#8e4123;
+	height:30px;
+	width: 250px;
+	display:inline-block;
+	margin-top:10px;
+}
+.form3-input-right {
+	margin-right:40px;
+	box-shadow-bottom:#8e4123;
+	height:30px;
+	width: 250px;
+	display:inline-block;
+	margin-top:10px;
+}
+#form3-input-social {
+	height:30px;
+	width:125px;
+	display:inline-block;
+}
+.form3-button {
+	float:right;
+	margin:20px 58px 0 0;
+	height:40px;
+	width:150px;
+	background:#8A2E00;
+	color:white;
+	box-shadow-bottom:#8e4123;
+	border:none;
+}

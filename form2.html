@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
-        <meta charset="utf-8">
-        <link type="text/css" rel="stylesheet" href="form2styling.css">
-        <title>Contact Form 1</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Contact Form 2</title>
     </head>
     <body>
-    <div class="form-container">
-    <div class="form-header">
-    <h2 id="form-title">Contact Form</h2>
-    <p class="form-subtitle">Please fill all the texts in the fields.</p></div>
-    <form>
-    		<label>
-    			Your Name:<br>
-    			<input type="text" name="Your Name" placeholder="Your Full Name">
-    		</label>
-    		<label>
-    			Your Email:<br>
-    			<input type="text" name="Your Email" placeholder="Valid Email Address">
-    		</label>
-    		<label>
-    			Message:<br>
-    			<textarea name="message" id="msg-area" placeholder="Your Message to Us"></textarea>
-    		</label>
-    		<label>
-    			Subject:<br>
-    			<select value="subject">
-    					<option value="Job Inquiry">Job Inquiry</option>
-    					<option value="Application Status">Application Status</option>
-    					<option value="Other">Other</option>
-    			</select>
-    		</label>
+    <div id="form2-container">
+    <div class="form2-header">
+    <h1 class="form2-title">Contact Form</h1>
+    <p class="form2-subtitle">Please fill all the texts in the fields.</p></div>
+    <form class="form2" action="#" method="post">
+            <label class="form2-label">
+                Your Name:
+                <input class="form2-input" class="form2-input" type="text" name="Your Name" placeholder="Your Full Name">
+            </label>
+            <label class="form2-label">
+                Your Email:
+                <input class="form2-input" type="text" name="Your Email" placeholder="Valid Email Address">
+            </label>
+            <label class="form2-label">
+                Message:
+                <textarea class="form2-textarea" name="message" id="msg-area" placeholder="Your Message to Us"></textarea>
+            </label>
+            <label class="form2-label">
+                Subject:
+                <select class="form2-select" value="subject">
+                        <option value="Job Inquiry">Job Inquiry</option>
+                        <option value="Application Status">Application Status</option>
+                        <option value="Other">Other</option>
+                </select>
+            </label>
             
-            <button>Send</button>
+            <input id="form2-button" type="submit" value="Send">
     </form>
     </div>
     </body>
